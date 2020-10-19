@@ -15,7 +15,7 @@ abstract class SongCore{
   bool get hasChords;
 
   String get text;
-  String getChords();
+  String get chords;
   int get rate;
 
 }
