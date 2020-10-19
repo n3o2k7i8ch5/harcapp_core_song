@@ -9,7 +9,7 @@ abstract class SongCore{
   String get performer;
   String get addPers;
   String get youtubeLink;
-  bool get official;
+  bool get isOwn;
 
   List<String> get tags;
   bool get hasChords;
