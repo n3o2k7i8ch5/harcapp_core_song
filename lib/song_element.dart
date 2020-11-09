@@ -9,8 +9,8 @@ class SongElement{
 
   const SongElement(this._text, this._chords, this._shift);
 
-  static SongElement empty({isRefren: false}){
-    return SongElement(PrimitiveWrapper(''), PrimitiveWrapper(''), PrimitiveWrapper(isRefren));
+  static SongElement empty({isRefrenTemplate: false}){
+    return SongElement(PrimitiveWrapper(''), PrimitiveWrapper(''), PrimitiveWrapper(isRefrenTemplate));
   }
 
   static SongElement from(String text, String chords, bool shift){
