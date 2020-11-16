@@ -6,6 +6,7 @@ abstract class SongCore{
   String get title;
   List<String> get hidTitles;
   String get author;
+  String get composer;
   String get performer;
   String get addPers;
   String get youtubeLink;
