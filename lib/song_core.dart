@@ -8,6 +8,8 @@ abstract class SongCore{
   String get author;
   String get composer;
   String get performer;
+  DateTime get releaseDate;
+
   String get addPers;
   String get youtubeLink;
   bool get isOwn;
