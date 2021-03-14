@@ -9,6 +9,8 @@ abstract class SongCore{
   String get composer;
   String get performer;
   DateTime get releaseDate;
+  bool get showRelDateMonth;
+  bool get showRelDateDay;
 
   String get addPers;
   String get youtubeLink;
