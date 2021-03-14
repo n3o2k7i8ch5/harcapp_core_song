@@ -8,8 +8,8 @@ abstract class SongCore{
   static const String PARAM_PERFORMER = 'performer';
   static const String PARAM_COMPOSER = 'composer';
   static const String PARAM_REL_DATE = 'release_date';
-  static const String PARAM_REL_DATE_SHOW_MONTH = 'show_rel_date_month';
-  static const String PARAM_REL_DATE_SHOW_DAY = 'show_rel_date_day';
+  static const String PARAM_SHOW_REL_DATE_MONTH = 'show_rel_date_month';
+  static const String PARAM_SHOW_REL_DATE_DAY = 'show_rel_date_day';
   static const String PARAM_YT_LINK = 'yt_link';
   static const String PARAM_ADD_PERS = 'add_pers';
   static const String PARAM_TAGS = 'tags';
